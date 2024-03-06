@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link to your external CSS file -->
+        <link rel="stylesheet" href="static/styles.css">
+        <title>
+            Regex Matching App
+        </title>
+    </head>
+    <body>
+        <h1>Regex Matching </h1>
+        <div class="buttonss">
+            <button><a href="/">Regex Matching</a></button>
+            <button><a href="/email">Email Validation</a></button>
+        </div>
+
+        <form action="/" method="post" class="strings">
+            TEST STRING:<br> <textarea name="input_string", placeholder="Enter text here" rows="10" cols="50"></textarea><br><br>
+            REGULAR EXPRESSION:<br> <input type="text" name="regex" placeholder ="Insert your regular expression" size="53"><br><br>
+            <input type="submit" value="Submit"><br>
+        </form>
+
+
+
+        <div class="result">
+            {% if test_string %}
+                <p><b>Text String:</b> {{test_string}}</p>
+                <p><b>Matching String:</b> {{" ".join(list_match)}}</p>
+            {% endif %}
+        </div>
+        
+
+    </body>
+</html>
