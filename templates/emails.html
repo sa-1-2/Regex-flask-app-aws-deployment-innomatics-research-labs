@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link to your external CSS file -->
+        <link rel="stylesheet" href="static/style.css">
+        <title>
+            Email Validation App
+        </title>
+    </head>
+    <body>
+        <form action="/email" method="post" class="email_strings">
+            Email ID<br><input type="text" name="email_ids", placeholder="example@domain.com" size="53"><br>
+            <input type="submit" value="Validate"><br>
+        </form>
+        {% if email %}
+            <p>{{email}} is valid email id</p>
+            <p>{{email_checksss}}</p>
+        {% endif %}
+    </body>
+</html>
