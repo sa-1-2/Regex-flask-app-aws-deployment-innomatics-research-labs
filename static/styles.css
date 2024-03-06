@@ -1,0 +1,88 @@
+form {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 2px;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.strings {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 2px;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+}
+
+h1 {
+  margin: 2px;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+
+input[type="text"] {
+  width: auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  background-color: #337ab7;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #337ab7;
+}
+
+button {
+  cursor: pointer;
+  background-color: #337ab7;
+  color: #fff;
+  margin: 10px 4px;
+  padding: 5px 10px;
+  border: 1px solid #337ab7;
+}
+
+a {
+  color: #fff;
+}
+
+input[type="submit"]:hover {
+  background-color: #286090;
+}
+
+.result {
+  text-align: center;
+  padding: 4px 2px;
+}
+
+h2:hover {
+  background-color: #286090;
+
+}
+
+
+.buttonss {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the buttons horizontally */
+  margin-top: 0px;
+}
+
+.email_strings {
+  font-family: Arial, sans-serif;
+  margin: 2px;
+  padding: 2px;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+
+}
